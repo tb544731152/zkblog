@@ -11,10 +11,8 @@
   进入node-manager执行如下命令<br>
   ```Java
   npm install //安装插件
-  ```
-  ```Java
   node app.js //运行node服务
-  ```Java
+  ```
   ### 访问
   http://localhost:3000<br>
   ### 线上启动建议使用forever start app.js
@@ -22,27 +20,17 @@
 ## web 前端
   ### 运行 
   进入web执行如下命令<br>
-  ` ``
+  ```Java
   npm install
-  ` ``
-  ` ``
-  npm run dev
-  ` ``
-  访问地址http://localhost:8080
-  ` ``
+  npm run dev // 运行 访问地址http://localhost:8080
   npm run build (编译上线需要修改访问地址lib/uitls.js,修改成你自己的服务器地址)<br>
-  ` ``
+  ```
 ## admin 后端
 
 ### 运行 
   进入admin执行如下命令（后台涉及图片服务器 用的七牛云，自己根据需要申请七牛云，也可以用阿里云）<br>
-  ` ``
+  ```Java
   npm install
-  ` ``
-  ` ``
-  npm run dev
-  ` ``
-  访问地址http://localhost:8083<br><br>
-  ` ``
-  npm run build (编译上线需要修改访问地址lib/uitls.js,修改成你自己的服务器地址)<br>
-  ` ``
+  npm run dev //访问地址http://localhost:8083<br><br>
+  npm run build (编译上线需要修改访问地址lib/uitls.js,修改成你自己的服务器地址)
+  ```
