@@ -9,12 +9,12 @@
   此包下为博客api
   ### 运行 
   进入node-manager执行如下命令<br>
-  ` ``
-  npm install
-  ` ``
-  ` ``
-  node app.js
-  ` ``
+  ```Java
+  npm install //安装插件
+  ```
+  ```Java
+  node app.js //运行node服务
+  ```Java
   ### 访问
   http://localhost:3000<br>
   ### 线上启动建议使用forever start app.js
