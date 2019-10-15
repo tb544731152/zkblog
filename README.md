@@ -3,8 +3,9 @@
 目录简介 
 -------
 [体验地址http://zkblog.sxccsd.com/](http://zkblog.sxccsd.com/) 
- 
-# git clone https://github.com/tb544731152/zkblog.git
+```Java
+git clone https://github.com/tb544731152/zkblog.git  //克隆项目到自己服务器
+```
 ## node-manager 后台api
   此包下为博客api
   ### 运行 
@@ -34,3 +35,4 @@
   npm run dev //访问地址http://localhost:8083<br><br>
   npm run build (编译上线需要修改访问地址lib/uitls.js,修改成你自己的服务器地址)
   ```
+### 如有疑问 欢迎加qq群 172593706 一起讨论
